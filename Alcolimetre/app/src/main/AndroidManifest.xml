@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alcoholimetro.indam.alcolimetrefree">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/icono" android:theme="@style/AppTheme">
+        <activity
+            android:name=".DatosUsuario"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Resultado"
+            android:label="@string/title_activity_resultado" >
+        </activity>
+        <activity
+            android:name=".SeleccionBebida"
+            android:label="@string/title_activity_seleccion_bebida" >
+        </activity>
+        <activity
+            android:name=".TiposWhisky"
+            android:label="@string/title_activity_tipos_whisky" >
+        </activity>
+        <activity
+            android:name=".TiposVodka"
+            android:label="@string/title_activity_tipos_vodka" >
+        </activity>
+        <activity
+            android:name=".TiposRon"
+            android:label="@string/title_activity_tipos_ron" >
+        </activity>
+        <activity
+            android:name=".TiposCerveza"
+            android:label="@string/title_activity_tipos_cerveza" >
+        </activity>
+        <activity
+            android:name=".TiposLicores"
+            android:label="@string/title_activity_tipos_licores" >
+        </activity>
+        <activity
+            android:name=".ResumenBebidas"
+            android:label="@string/title_activity_resumen_bebidas" >
+        </activity>
+
+    </application>
+
+</manifest>

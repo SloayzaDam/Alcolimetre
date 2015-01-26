@@ -1,0 +1,296 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.heavell.pruebaconcurso.SeleccionBebida">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contenedor"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/vasoTubo"
+                android:src="@drawable/vasotubo"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/vasoTubo" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/vasoSidra"
+                android:src="@drawable/vasosidra"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/vasoSidra" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/copaBalon"
+                android:src="@drawable/copabalon"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/copaBalon" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/vasoChupito"
+                android:src="@drawable/vasochupito"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/vasoChupito" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/jarrita"
+                android:src="@drawable/jarrita"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/jarrita" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/cania"
+                android:src="@drawable/vasocania"
+                android:background="@drawable/circle_button"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="determinarCantidad"
+                android:contentDescription="@string/cania" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/btMini"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/mini"
+                android:textSize="12sp"
+                android:background="@drawable/normal_glass_button"
+                android:onClick="determinarCantidad"/>
+
+            <Button
+                android:id="@+id/btTercio"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/tercio"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/normal_glass_button"
+                android:onClick="determinarCantidad"/>
+
+            <Button
+                android:id="@+id/btQuinto"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/quinto"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/normal_glass_button"
+                android:onClick="determinarCantidad"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/btPinta"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/pinta"
+                android:textSize="12sp"
+                android:background="@drawable/normal_glass_button"
+                android:onClick="determinarCantidad"/>
+
+            <Button
+                android:id="@+id/btMediaPinta"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="@string/mediaPinta"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/normal_glass_button"
+                android:onClick="determinarCantidad"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cantidad"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:id="@+id/btDecremento"
+                android:text="-"
+                android:textColor="@color/red"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etCantidad"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:hint="@string/cantidad_defecto"
+                android:background="@color/pastel"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:id="@+id/btIncremento"
+                android:text="+"
+                android:textColor="@color/green"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bebidas"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/btWhisky"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/whisky"
+                android:textSize="12sp"
+                android:onClick="tipoBebida"/>
+
+            <Button
+                android:id="@+id/btVodka"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/vodka"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:onClick="tipoBebida"/>
+
+            <Button
+                android:id="@+id/btRon"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/ron"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:onClick="tipoBebida"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/btCerveza"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/cerveza"
+                android:textSize="12sp"
+                android:onClick="tipoBebida"/>
+
+            <Button
+                android:id="@+id/btLicores"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="@string/licores"
+                android:onClick="tipoBebida"/>
+
+        </LinearLayout>
+
+</LinearLayout>

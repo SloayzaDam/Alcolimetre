@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Alcolimetre free</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Activity datos de usuario-->
+    <string name="pais">Selección de país</string>
+    <string name="espania">España (0.5)</string>
+    <string name="francia">Francia (0.5)</string>
+    <string name="alemania">Alemania (0.5)</string>
+    <string name="sexo">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="weight">Peso (Kg)</string>
+    <string name="weightDefault">50</string>
+    <string name="start">Comenzar</string>
+
+    <!--Activity resumen bebidas-->
+    <string name="title_activity_resumen_bebidas">Bebidas Consumidas</string>
+    <string name="cuadroresumen">Bebidas consumidas</string>
+    <string name="simbolomas">+</string>
+    <string name="title_activity_resultado">Resultado</string>
+
+    <!--Activity seleccion bebida-->
+    <string name="title_activity_seleccion_bebida">Tipo y Cantidad de Bebida</string>
+    <string name="contenedor">Tamaño del recipiente</string>
+    <string name="vasoTubo">Vaso de Tubo</string>
+    <string name="vasoSidra">Vaso de Sidra</string>
+    <string name="copaBalon">Copa de Balon</string>
+    <string name="vasoChupito">Vaso de Chupito</string>
+    <string name="jarrita">Jarrita</string>
+    <string name="cania">Vaso de Cania</string>
+    <string name="mini">Mini (1l)</string>
+    <string name="tercio">Tercio (0.33l)</string>
+    <string name="quinto">Quinto (0.20l)</string>
+    <string name="pinta">Pinta</string>
+    <string name="mediaPinta">Media Pinta</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="cantidad_defecto">1</string>
+    <string name="bebidas">Tipos de bebida</string>
+    <string name="whisky">Whisky</string>
+    <string name="vodka">Vodka</string>
+    <string name="ron">Ron</string>
+    <string name="cerveza">Cervezas</string>
+    <string name="licores">Licores</string>
+    <string name="otros">Otros</string>
+
+    <!--Activity tipos whisky-->
+    <string name="title_activity_tipos_whisky">Tipos de Whisky</string>
+    <string name="jb">J&amp;B</string>
+    <string name="dyc">DYC</string>
+    <string name="ballantines">Ballantines</string>
+    <string name="jackD">Jack Daniels</string>
+    <string name="jonnie">Jonnie Walker</string>
+    <string name="chivas">Chivas Regal</string>
+    <string name="passport">Passport Scotch</string>
+    <string name="buchan">Buchanans</string>
+
+    <!--Activity tipos vodka-->
+    <string name="title_activity_tipos_vodka">Tipos de Vodka</string>
+    <string name="absolut">Absolut</string>
+    <string name="eristoff">Eristoff</string>
+    <string name="smirnoff">Smirnoff</string>
+    <string name="skyy">SKYY</string>
+    <string name="crystalh">Crystal head</string>
+    <string name="greyg">Grey goose</string>
+    <string name="beluga">Beluga</string>
+    <string name="russkaya">Russkaya</string>
+
+    <!--Activity tipos ron-->
+    <string name="title_activity_tipos_ron">Tipos de Ron</string>
+    <string name="santat">Santa Teresa</string>
+    <string name="cacique">Cacique</string>
+    <string name="havanac">Havana Club</string>
+    <string name="barcelo">Barcelo</string>
+    <string name="matusalem">Matusalem</string>
+    <string name="bacardi">Bacardi</string>
+    <string name="brugal">Brugal</string>
+    <string name="negrita">Negrita</string>
+
+    <!--Activity tipos cerveza-->
+    <string name="title_activity_tipos_cerveza">Tipos de Cerveza</string>
+    <string name="smiguel">San Miguel</string>
+    <string name="heineken">Heineken</string>
+    <string name="amstel">Amstel</string>
+    <string name="cruzcampo">Cruzcampo</string>
+    <string name="alhambra">Alhambra</string>
+    <string name="budweiser">Budweiser</string>
+    <string name="paulaner">Paulaner</string>
+    <string name="egalicia">Estrella Galicia</string>
+    <string name="pilsener">Pilsener</string>
+    <string name="voldam">Vol Dam</string>
+    <string name="guinnes">Guinnes</string>
+    <string name="murphys">Murphy&#96;s</string>
+    <string name="coronita">Coronita</string>
+    <string name="mahou">Mahou</string>
+    <string name="judas">Judas</string>
+    <string name="carlsberg">Carlsberg</string>
+    <string name="desperados">Desperados</string>
+
+    <!--Activity tipos licores-->
+    <string name="title_activity_tipos_licores">Tipos de Licores</string>
+    <string name="aguardiente">Aguardiente</string>
+    <string name="cointreau">Cointreau</string>
+    <string name="baileys">Baileys</string>
+    <string name="patxaran">Patxaran</string>
+    <string name="orujohierb">Orujo de Hierbas</string>
+    <string name="ruavieja">Ruavieja</string>
+    <string name="jagermeister">Jagermeister</string>
+    <string name="coniac">Coniac</string>
+
+    <!--Activity Resultado-->
+    <string name="salir">Salir</string>
+
+</resources>

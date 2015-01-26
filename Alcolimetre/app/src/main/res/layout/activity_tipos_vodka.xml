@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:baselineAligned="false"
+    tools:context="com.example.heavell.pruebaconcurso.TiposVodka">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Scrvvod"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btskyy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/skyy"
+                android:drawableStart="@drawable/skyy"
+                android:text="@string/skyy"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btabsolut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/absolut"
+                android:drawableStart="@drawable/absolut"
+                android:text="@string/absolut"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btsmirnoff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/smirnoff"
+                android:drawableStart="@drawable/smirnoff"
+                android:text="@string/smirnoff"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btcrystalh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/crystalhead"
+                android:drawableStart="@drawable/crystalhead"
+                android:text="@string/crystalh"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbeluga"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/beluga"
+                android:drawableStart="@drawable/beluga"
+                android:text="@string/beluga"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btrusskaya"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/russkaya"
+                android:drawableStart="@drawable/russkaya"
+                android:text="@string/russkaya"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/bteristoff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/eristoff"
+                android:drawableStart="@drawable/eristoff"
+                android:text="@string/eristoff"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btgreyg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/greygoose"
+                android:drawableStart="@drawable/greygoose"
+                android:text="@string/greyg"
+                android:onClick="setCantidadLiquido"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    tools:context="com.example.heavell.pruebaconcurso.TiposRon">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Scrvron"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btsantat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/santateresa"
+                android:drawableStart="@drawable/santateresa"
+                android:text="@string/santat"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btcacique"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cacique"
+                android:drawableStart="@drawable/cacique"
+                android:text="@string/cacique"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/bthavanac"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/havanaclub"
+                android:drawableStart="@drawable/havanaclub"
+                android:text="@string/havanac"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbarcelo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/barceloanejo"
+                android:drawableStart="@drawable/barceloanejo"
+                android:text="@string/barcelo"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btmatusalem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/matusalem"
+                android:drawableStart="@drawable/matusalem"
+                android:text="@string/matusalem"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbacardi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bacardiwhite"
+                android:drawableStart="@drawable/bacardiwhite"
+                android:text="@string/bacardi"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbrugal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/brugal"
+                android:drawableStart="@drawable/brugal"
+                android:text="@string/brugal"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btnegrita"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/negrita"
+                android:drawableStart="@drawable/negrita"
+                android:text="@string/negrita"
+                android:onClick="setCantidadLiquido"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

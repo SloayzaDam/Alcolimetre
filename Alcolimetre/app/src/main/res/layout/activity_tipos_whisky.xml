@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    tools:context="com.example.heavell.pruebaconcurso.TiposWhisky">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Scrvwis"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btJB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/jb"
+                android:drawableStart="@drawable/jb"
+                android:text="@string/jb"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btdyc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/dyc"
+                android:drawableStart="@drawable/dyc"
+                android:text="@string/dyc"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btballantines"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ballantines"
+                android:drawableStart="@drawable/ballantines"
+                android:text="@string/ballantines"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btjackD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/jackdaniels"
+                android:drawableStart="@drawable/jackdaniels"
+                android:text="@string/jackD"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btjonnie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/johnie"
+                android:drawableStart="@drawable/johnie"
+                android:text="@string/jonnie"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btchivas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/chivas"
+                android:drawableStart="@drawable/chivas"
+                android:text="@string/chivas"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btpassport"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/passport"
+                android:drawableStart="@drawable/passport"
+                android:text="@string/passport"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbuchan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:drawableStart="@mipmap/ic_launcher"
+                android:text="@string/buchan"
+                android:onClick="setCantidadLiquido"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

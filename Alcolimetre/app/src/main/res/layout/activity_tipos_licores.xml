@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    tools:context="com.example.heavell.pruebaconcurso.TiposLicores">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Scrvlic"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btaguardiente"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/aguardiente"
+                android:drawableStart="@drawable/aguardiente"
+                android:text="@string/aguardiente"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btcointreau"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cointreau"
+                android:drawableStart="@drawable/cointreau"
+                android:text="@string/cointreau"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btbaileys"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baileys"
+                android:drawableStart="@drawable/baileys"
+                android:text="@string/baileys"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btpatxaran"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/paxaran"
+                android:drawableStart="@drawable/paxaran"
+                android:text="@string/patxaran"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btorujohierb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/orujohierbas"
+                android:drawableStart="@drawable/orujohierbas"
+                android:text="@string/orujohierb"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btruavieja"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_launcher"
+                android:drawableStart="@mipmap/ic_launcher"
+                android:text="@string/ruavieja"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btjagermeister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/jagger"
+                android:drawableStart="@drawable/jagger"
+                android:text="@string/jagermeister"
+                android:onClick="setCantidadLiquido"/>
+
+            <Button
+                android:id="@+id/btconiac"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/coniac"
+                android:drawableStart="@drawable/coniac"
+                android:text="@string/coniac"
+                android:onClick="setCantidadLiquido"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

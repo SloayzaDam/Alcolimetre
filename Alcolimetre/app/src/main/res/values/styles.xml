@@ -1,0 +1,21 @@
+<resources>
+    <color name="green">#40FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="pastel">#CFB486</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:background">@color/pastel</item>
+    </style>
+
+    <style name="Fondo_negro">
+        <item name="android:color">@color/black</item>
+    </style>
+
+    <style name="Fondo_rojo">
+        <item name="android:color">@color/red</item>
+    </style>
+
+</resources>
